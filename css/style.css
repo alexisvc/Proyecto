@@ -22,10 +22,14 @@
 
 .wh-i{
     height: 35px;
-    width: max-content;
+    width: 450px;
     border: #84133F 1px solid;
 }
 
 .border-h{
     border: #84133F;
+}
+
+w-250{
+    width: 250px;
 }
