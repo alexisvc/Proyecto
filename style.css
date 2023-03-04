@@ -1,0 +1,125 @@
+*{
+    border: 1px solid black;
+}
+
+/* BARRA #1 */
+.barraPrincipal{
+    display: grid;
+    grid-template-columns: 1fr, 3fr;
+    
+    padding: 10px 0px;
+    margin: auto;
+    text-decoration: none;
+    border: 1px solid #84133F;
+}
+.barraPrincipalUno{
+    grid-column: 2/3;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0px;
+}
+.barraPrincipalUno a{
+    text-decoration: none;
+    color: #84133F;
+}
+.barraPrincipalUno div{
+    height: fit-content;
+    margin: auto;
+}
+#esp{
+    border: 1px solid #84133F;
+    border-radius: 14%;
+    background-color: #84133F;
+    color: #ffffff;
+    padding: 10px 15px;
+}
+
+
+/* BARRA #02 */
+.barraATC{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    /*grid-template-columns: repeat(2, 1fr);*/
+    height: 100PX;
+    text-align: center;
+    border: 1px solid #84133F;
+    /*background-color: #FFE7FF;*/
+}
+
+.barraATC img{
+    height: 100px;
+    text-align: end;
+    margin-left: 500px;
+}
+
+
+.barraATCUno{
+    background-color: #84133F;
+    border: 1px solid #84133F;
+    border-radius: 14%;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 50px;
+}
+
+.barraATCUno a{
+    text-decoration: none;
+    color: white;
+    margin: auto;
+}
+
+
+.barraMenu{
+    display: flex;
+    justify-content: space-around;
+    background-color: #84133F;
+    color: #ffffff;
+    height: 35px;
+}
+.barraMenu div{
+    height: fit-content;
+    margin: auto;
+}
+
+.barraMenu a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.principal{
+    text-align: center;
+}
+.principalItems{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contactenos{
+    text-align: center;
+}
+
+.contactenosMain{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.agendamientoCitas{
+    text-align: center;
+}
+.opcionesMenu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.final{
+    text-align: center;
+}
+
+.opcionesFinal{
+    display: flex;
+    justify-content: space-around;
+}
