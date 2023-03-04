@@ -19,3 +19,11 @@
 .w-ft{
     width: fit-content;
 }
+
+.border-h{
+    border: #84133F;
+}
+
+.h-25{
+    height: 50px;
+}
