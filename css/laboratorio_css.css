@@ -1,11 +1,6 @@
 *{
     background-color: #F3E8EC;
-}
-
-.img-lab{
-    /* background-image: image-set("img\laboratorio.png");*/
-    width: fit-content;
-    background-color: #84133F;
+    /*border: 1px solid black;*/
 }
 
 .bg-lab{
@@ -26,4 +21,9 @@
 
 .h-25{
     height: 50px;
+}
+
+.img-lab{
+    height: 956px;
+    width: 940px;
 }
