@@ -1,0 +1,22 @@
+*{
+    background-color: #F3E8EC;
+}
+
+.img-lab{
+    /* background-image: image-set("img\laboratorio.png");*/
+    width: fit-content;
+    background-color: #84133F;
+}
+
+.bg-lab{
+    background-color: #84133F;
+}
+
+.color-h{
+    color: #84133F;
+}
+
+.w-ft{
+    width: fit-content;
+}
+
