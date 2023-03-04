@@ -14,3 +14,18 @@
 .bg-lab{
     background-color: #84133F;
 }
+
+.m-n{
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.wh-i{
+    height: 35px;
+    width: max-content;
+    border: #84133F 1px solid;
+}
+
+.border-h{
+    border: #84133F;
+}
