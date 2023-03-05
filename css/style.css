@@ -19,6 +19,26 @@
     background-color: #5418A8;
 }
 
+.bg-amarillo{
+    background-color: #EFC52E;
+}
+
+.bg-verde{
+    background-color: #76AA91;
+}
+
+.bg-rosado{
+    background-color: #EA536A;
+}
+
+.bg-beige{
+    background-color: #E9D2C7;
+}
+
+.bg-verde-2{
+    background-color: #B5E6D5;
+}
+
 .m-n{
     margin-top: -30px;
     margin-bottom: 30px;
@@ -38,27 +58,14 @@
     font-size: 25px;
 }
 
-.bg-lab{
-    background-color: #84133F;
-}
-
-.color-h{
-    color: #84133F;
+.f-size-2{
+    font-size: 20px;
 }
 
 .w-ft{
     width: fit-content;
 }
 
-.border-h{
-    border: #84133F;
-}
-
 .h-25{
     height: 50px;
-}
-
-.img-lab{
-    height: 956px;
-    width: 940px;
 }
