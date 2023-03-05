@@ -12,7 +12,7 @@
     
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     
-        <title>Atención al cliente y contacto</title>
+        <title>Atención al Cliente y Contacto del Hospital Vozandes Quito</title>
     </head>
 <body>
     <div class="container-fluid">
@@ -27,7 +27,7 @@
             </div>
             <div class="p-2 px-5 m-2 mx-5 bg-lab rounded">
                 <i class="fa-solid fa-globe bg-lab text-white"></i> 
-                <label class="bg-lab text-white">Español</label> 
+                <label tabindex="0" aria-label="Idioma Español" aria-level="1" role="heading" class="bg-lab text-white">Español</label> 
                 <i class="fa-solid fa-caret-down bg-lab text-white"></i>
             </div>
         </div>
@@ -38,62 +38,66 @@
                 <i class="fa-regular fa-calendar bg-lab text-white mx-3"></i>
                 <a class="bg-lab text-white text-decoration-none mx-3" href="">Agenda tu cita</a>
             </div>
-            <img class="img-logo mx-5" src="/img/logo.png">
+            <img tabindex="0" role="img" class="img-logo mx-5" src="/img/logo.png" alt="Logo del Hospital Vozandes, A la gloria de Dios y al Servicio del Ecuador">
         </div>
 
          <!-- NAVEGADOR -->
-        <nav class="my-2 py-3 d-flex justify-content-evenly bg-lab">
+        <nav tabindex="0" aria-label="Barra Principal" role="navigation" class="my-2 py-3 d-flex justify-content-evenly bg-lab">
                 <a class="bg-lab text-decoration-none text-white fw-bold" href="">Pacientes y visitantes</a>
                 <a class="bg-lab text-decoration-none text-white fw-bold" href="">Especialidades</a>
                 <a class="bg-lab text-decoration-none text-white fw-bold" href="">Servicios</a>
                 <a class="bg-lab text-decoration-none text-white fw-bold" href="">Consejos de Salud</a>
                 <a class="bg-lab text-decoration-none text-white fw-bold" href="">Academia Bruckner</a>
                 <a class="bg-lab text-decoration-none text-white fw-bold" href="">Nosotros</a>
-                <i class="fa-solid fa-magnifying-glass bg-lab text-white fw-bold"></i>
+                <a class="bg-lab text-decoration-none text-white fw-bold" href="" aria-label="Ícono de búsqueda">
+                    <i class="fa-solid fa-magnifying-glass bg-lab text-white fw-bold"></i>
+                </a>
+                
         </nav>
 
         <!-- SAC SERVICIOS DE ATENCIÓN AL CLIENTE -->
         <div class="text-center bg-lab">
-            <h1 class="bg-lab my-2 py-2 text-white fw-bold">SAC SERVICIOS DE ATENCIÓN AL CLIENTE</h1>
+            <h1 tabindex="0" role="heading" aria-level="1" class="bg-lab my-2 py-2 text-white fw-bold">SAC SERVICIOS DE ATENCIÓN AL CLIENTE</h1>
 
-            <img src="/img/atencion_cliente.png" class="img-fluid">
+            <img tabindex="0" role="img" src="/img/atencion_cliente.png" class="img-fluid" alt="Imagen de asistente de atención al cliente">
 
             <div class="d-flex justify-content-evenly">
                 <div class="bg-lab p-3 m-n">
                     <i class="fa-solid fa-file-invoice-dollar bg-lab text-white fw-bold"></i>
-                    <label class="bg-lab text-white fw-bold">FACTURACIÓN</label> 
+                    <label tabindex="0" aria-label="Sección de Facturación" aria-level="1" role="heading" class="bg-lab text-white fw-bold">FACTURACIÓN</label> 
                 </div>
     
                 <div class="bg-lab p-3 m-n">
                     <i class="fa-solid fa-envelope bg-lab text-white fw-bold"></i>
-                    <label class="bg-lab text-white fw-bold">RESULTADOS DE EXÁMENES</label> 
+                    <label tabindex="0" aria-label="Sección de Resultados de Exámenes" aria-level="1" role="heading" class="bg-lab text-white fw-bold">RESULTADOS DE EXÁMENES</label> 
                 </div>
     
                 <div class="bg-lab p-3 m-n">
                     <i class="fa-solid fa-user-doctor bg-lab text-white fw-bold"></i>
-                    <label class="bg-lab text-white fw-bold">ENCUENTRE A SU DOCTOR</label> 
+                    <label tabindex="0" aria-label="Sección de Encuentre a su Doctor" aria-level="1" role="heading" class="bg-lab text-white fw-bold">ENCUENTRE A SU DOCTOR</label> 
                 </div>
             </div>
         </div>
 
+
          <!-- CONTACTENOS -->
         <div class="text-center bg-white py-4">
-            <h1 class="bg-white py-3">Contáctenos</h1>
+            <h1 tabindex="0" role="heading" aria-level="1" class="bg-white py-3">Contáctenos</h1>
             <div class="d-flex justify-content-center bg-white">
                 <div class="bg-white">
-                    <img src="/img/contacto-icon.jpg" height="250px" class="m-4">
-                    <p class="bg-white fw-bold ">(+593) 02 400 7100 - Ext. 3137/38 <br>
+                    <img tabindex="0" role="img" src="/img/contacto-icon.jpg" height="250px" class="m-4" alt="Imagen referente al contacto al cliente">
+                    <p role="region" tabindex="0" class="bg-white fw-bold ">(+593) 02 400 7100 - Ext. 3137/38 <br>
                         Villalengua Oe2-37y 10 de Agosto <br>
                         Quito – Ecuador</p>
                 </div>
-                <form class="bg-white text-start">
-                    <label class="bg-white fw-bold py-2" for="nombre">Nombre:</label><br>
+                <form tabindex="0" role="form" aria-label="Formulario de Contacto" class="bg-white text-start">
+                    <label aria-level="1" role="heading" class="bg-white fw-bold py-2" for="nombre">Nombre:</label><br>
                     <input class="wh-i" type="text" id="nombre" placeholder="Ingresar nombre"><br>
-                    <label class="bg-white fw-bold py-2" for="telefono">Teléfono:</label><br>
+                    <label aria-level="1" role="heading" class="bg-white fw-bold py-2" for="telefono">Teléfono:</label><br>
                     <input class="wh-i" type="email" id="telefono" placeholder="Ingresar teléfono"><br>
-                    <label class="bg-white fw-bold py-2" for="correo">Correo:</label><br>
+                    <label aria-level="1" role="heading" class="bg-white fw-bold py-2" for="correo">Correo:</label><br>
                     <input class="wh-i" type="text" id="correo" placeholder="Ingresar correo"><br>
-                    <label class="bg-white fw-bold py-2" for="mensaje">Mensaje:</label><br>
+                    <label aria-level="1" role="heading" class="bg-white fw-bold py-2" for="mensaje">Mensaje:</label><br>
                     <input class="wh-i" type="text" id="mensaje" placeholder="Ingresar mensaje"><br>
 
                     <button class="bg-lab text-white mx-3 my-3 p-2 px-4 rounded border-h fw-bold">
@@ -105,8 +109,8 @@
 
          <!-- HORRARIOS DE ATENCIÓN -->
         <div class="text-center bg-white my-5 py-4">
-            <h1 class="bg-white">Horarios de Atención</h1>
-            <p class="bg-white f-size">
+            <h1 tabindex="0" role="heading" aria-level="1" class="bg-white">Horarios de Atención</h1>
+            <p role="region" tabindex="0" class="bg-white f-size">
                 Lunes a Viernes<br>
                 08H00 - 16H30
             </p>
@@ -114,25 +118,25 @@
 
          <!-- AGENDAMIENTO CITAS -->
         <div class="text-center">
-            <h1 class="pb-4">Agendamiento de Citas</h1>
+            <h1 tabindex="0" role="heading" aria-level="1" class="pb-4">Agendamiento de Citas</h1>
             <div class="d-flex justify-content-evenly">
                 <div class="bg-lab p-4 text-white">
                     <i class="fa-solid fa-calendar bg-lab display-6 mb-3"></i>
-                    <h5 class="bg-lab fw-bold mb-3">HVQ DIGITAL</h5>
-                    <p class="bg-lab">Elige tu especialista y horario</p>
-                    <p class="bg-lab">Agendando tu cita por la web</p>
+                    <h5 tabindex="0" role="heading" aria-level="5" class="bg-lab fw-bold mb-3">HVQ DIGITAL</h5>
+                    <p role="region" tabindex="0" class="bg-lab">Elige tu especialista y horario</p>
+                    <p role="region" tabindex="0" class="bg-lab">Agendando tu cita por la web</p>
                 </div>
                 <div class="bg-lab p-4 text-white">
                     <i class="fa-brands fa-whatsapp bg-lab display-6 mb-3"></i>
-                    <h5 class="bg-lab fw-bold mb-3">WHATSAPP</h5>
-                    <p class="bg-lab">También te ayudamos por esta vía</p>
-                    <p class="bg-lab">Celular: 0987600640</p>
+                    <h5 tabindex="0" role="heading" aria-level="5" class="bg-lab fw-bold mb-3">WHATSAPP</h5>
+                    <p role="region" tabindex="0" class="bg-lab">También te ayudamos por esta vía</p>
+                    <p role="region" tabindex="0" class="bg-lab">Celular: 0987600640</p>
                 </div>
                 <div class="bg-lab p-4 text-white">
                     <i class="fa-solid fa-user-doctor bg-lab display-6 mb-3"></i>
-                    <h5 class="bg-lab fw-bold mb-3">ENCUENTRE A SU DOCTOR</h5>
-                    <p class="bg-lab">Necesita un especialista?</p>
-                    <p class="bg-lab">Revise nuestro directorio médico</p>
+                    <h5 tabindex="0" role="heading" aria-level="5" class="bg-lab fw-bold mb-3">ENCUENTRE A SU DOCTOR</h5>
+                    <p role="region" tabindex="0" class="bg-lab">Necesita un especialista?</p>
+                    <p role="region" tabindex="0" class="bg-lab">Revise nuestro directorio médico</p>
                 </div>
             </div>
         </div>
@@ -140,21 +144,21 @@
          <!-- CONTACTOS FINALES -->
         <div class="text-center mt-5 bg-lab">
 
-            <img src="/img/logo_blanco.png" height="150px" class="bg-lab my-3">
+            <img tabindex="0" role="img" src="/img/logo_blanco.png" height="150px" class="bg-lab my-3" alt="Logo del Hospital Vozandes, A la gloria de Dios y al Servicio del Ecuador">
 
             <div class="d-flex justify-content-evenly bg-lab py-4 text-white">
 
                 <div class="bg-lab p-4 mx-5 border border-cart">
-                    <h5 class="bg-lab">Contactenos</h5>
-                    <p class="bg-lab">(+593) 1700 700 700</p>
-                    <p class="bg-lab">(+593 2) 400 7100</p>
-                    <p class="bg-lab">Villalengua Oe2-37 y Av. 10 de Agosoto</p>
-                    <a class="bg-lab" href="">www.hospitalvozandes.com</a>
-                    <p class="bg-lab">Quito-Ecuador</p>
+                    <h5 tabindex="0" role="heading" aria-level="5" class="bg-lab">Contáctenos</h5>
+                    <p role="region" tabindex="0" class="bg-lab">(+593) 1700 700 700</p>
+                    <p role="region" tabindex="0" class="bg-lab">(+593 2) 400 7100</p>
+                    <p role="region" tabindex="0" class="bg-lab">Villalengua Oe2-37 y Av. 10 de Agosoto</p>
+                    <a tabindex="0" class="bg-lab text-white " href="">www.hospitalvozandes.com</a>
+                    <p role="region" tabindex="0" class="bg-lab">Quito-Ecuador</p>
                 </div>
 
                 <div class="bg-lab p-4 mx-5 border border-cart">
-                    <h5 class="bg-lab">Links de interés</h5>
+                    <h5 tabindex="0" role="heading" aria-level="5" class="bg-lab">Links de interés</h5>
                     <a class="text-decoration-none text-white bg-lab" href="">TRABAJA CON NOSOTROS</a><br>
                     <a class="text-decoration-none text-white bg-lab" href="">SOBRE NOSOTROS</a><br>
                     <a class="text-decoration-none text-white bg-lab" href="">ESPECIALIDADES</a><br>
@@ -166,20 +170,20 @@
                 </div>
 
                 <div class="bg-lab p-4 mx-5 border border-cart">
-                    <h5 class="bg-lab fw-bold">Suígenos</h5>
-                        <a class="text-decoration-none text-white bg-lab" href="">
+                    <h5 tabindex="0" role="heading" aria-level="5" class="bg-lab fw-bold">Síguenos</h5>
+                        <a aria-label="Enlace a Facebook" class="text-decoration-none text-white bg-lab" href="">
                             <i class="fa-brands fa-facebook-f bg-lab display-6"></i>
                         </a>
-                        <a class="text-decoration-none text-white bg-lab" href="">
+                        <a aria-label="Enlace a Twitter" class="text-decoration-none text-white bg-lab" href="">
                             <i class="fa-brands fa-twitter bg-lab display-6"></i>
                         </a>
-                        <a class="text-decoration-none text-white bg-lab" href="">
+                        <a aria-label="Enlace a Instagram" class="text-decoration-none text-white bg-lab" href="">
                             <i class="fa-brands fa-instagram bg-lab display-6"></i>
                         </a>
-                        <a class="text-decoration-none text-white bg-lab" href="">
+                        <a aria-label="Enlace a Youtube" class="text-decoration-none text-white bg-lab" href="">
                             <i class="fa-brands fa-youtube bg-lab display-6"></i>
                         </a>
-                        <a class="text-decoration-none text-white bg-lab" href="">
+                        <a aria-label="Enlace a Linkedin" class="text-decoration-none text-white bg-lab" href="">
                             <i class="fa-brands fa-linkedin bg-lab display-6"></i>
                         </a>
                 </div>
@@ -187,10 +191,6 @@
             </div>
         </div>
         
-        <!-- Footer -->
-        <div>
-            <a href="#">Hospital Vozandes</a> <label>|Todos los derechos reservados</label>
-        </div>
     </div>
     
 </body>
